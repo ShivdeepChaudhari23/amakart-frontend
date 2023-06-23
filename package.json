@@ -1,8 +1,17 @@
 {
-  "name": "amakart-frontend-2",
+  "name": "amakart-frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4443/api/v1/items",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "react-bootstrap": "^2.7.4",
+    "react-redux": "^8.1.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.63.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

@@ -1,0 +1,51 @@
+.Logo {
+  border: 2px black;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.Nav-Container {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 10;
+    padding: 0 8px 0 8px;
+}
+
+
+.Input-Name {
+    margin-right: 8px;
+    height: 100%;
+}
+
+.Search-Box-Container {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.Cart-Modal-Button {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid white;
+}
+
+.Search-Button {
+    height: 100%;
+}
+
+.Title-Label {
+    color: white;
+}
+
+.Search-Mode-Choice {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.Search-Mode-Title-Container {
+    margin-right: 8px;
+}

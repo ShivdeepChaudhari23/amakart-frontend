@@ -1,0 +1,29 @@
+.Item-Card {
+    width: 18rem;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+
+.Title {
+    font-weight: 900;
+    height: 72px;
+}
+
+.Text {
+    color: #c7c9c3;
+    height: 260px;
+}
+
+.Item-Card-Footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Price {
+    font-size: 20px;
+    align-items: center;
+}
+
+.Card-Image {
+    height: 180px;
+}

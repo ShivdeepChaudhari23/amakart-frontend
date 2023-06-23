@@ -1,0 +1,12 @@
+.Cart-Modal-Header {
+    font-weight: 900;
+}
+
+.Grand-Total-Header {
+    font-weight: 900;
+}
+
+.Cart-Item-Container {
+    height: 600px;
+    overflow-y: scroll;
+}
