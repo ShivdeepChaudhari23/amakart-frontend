@@ -61,6 +61,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+1. Clone `amakart-backend` repository first to run.
+
+Demo Videos and Screenshots: https://drive.google.com/drive/folders/1k3IHYVzcPhuGFvFBXZUMFgIt89KpnIzS?usp=sharing
+
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
