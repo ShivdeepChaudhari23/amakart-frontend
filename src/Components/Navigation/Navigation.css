@@ -35,17 +35,3 @@
 .Search-Button {
     height: 100%;
 }
-
-.Title-Label {
-    color: white;
-}
-
-.Search-Mode-Choice {
-    display: flex;
-    align-items: center;
-    margin-right: 16px;
-}
-
-.Search-Mode-Title-Container {
-    margin-right: 8px;
-}

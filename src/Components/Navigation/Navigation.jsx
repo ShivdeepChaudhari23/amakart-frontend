@@ -12,17 +12,12 @@ import CartModal from "../CartModal";
 const Navigation = () => {
   const [searchText, setSearchText] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [searchMode, setSearchMode] = useState("");
   const cartItems = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   const handleSearchClick = (e) => {
     e.preventDefault();
-    if (searchMode === '') {
-      alert('Please Select Search Mode first');
-      return;
-    }
-    dispatch(getItems(`${searchMode}=${searchText}`));
+    dispatch(getItems(`searchAttribute=${searchText}`));
   };
 
   useEffect(() => {
@@ -46,28 +41,6 @@ const Navigation = () => {
         height="inherit"
       />
       <div className="Search-Box-Container">
-        <div className="Search-Mode-Choice">
-          <div className="Search-Mode-Title-Container">
-            <input
-              type="radio"
-              value="Title"
-              onChange={() => setSearchMode("Title")}
-              name="Title"
-              checked={searchMode === "Title"}
-            />
-            <label className="Title-Label">Name</label>
-          </div>
-          <div>
-            <input
-              type="radio"
-              value="Variant SKU"
-              onChange={() => setSearchMode("Variant SKU")}
-              name="SKU"
-              checked={searchMode === "Variant SKU"}
-            />
-            <label className="Title-Label">SKU</label>
-          </div>
-        </div>
         <input
           onChange={(e) => {
             setSearchText(e.target.value);
